@@ -1,8 +1,5 @@
 
 /* Navbar and header css */
-.page-head{
-    height: 64px;
-}
 
 .logo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -102,8 +99,9 @@
     
 }
 
-.icons{
-    
+.icon{
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 /*  Footer css */
@@ -112,3 +110,43 @@
     letter-spacing: 1px;
     
 }
+
+/*  menu in menu tab */
+.menu-body{
+    background-color: black;
+}
+
+.main-menu, .main-form{
+    margin-top: 100px;
+}
+
+.menu-container{
+    background-image: url(./images/menu-background.jpg);
+    border-radius: 5px;
+}
+
+.menu-title, .menu-heading{
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.menu-item-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.menu-item-description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+/*  Order form css */
+.form-heading, .form-pick-items{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
