@@ -12,7 +12,7 @@
 * Order page where users fill out a form with some required information, what they would like to order, and how much of it
 * Contact page with social media icons that link to the real sites
 
-## Tehcnologies
+## Technologies
 
 * HTML
 * CSS
