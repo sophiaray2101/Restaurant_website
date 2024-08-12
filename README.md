@@ -20,7 +20,7 @@
 
 ## Future Plans
 
-* I would like to make the order form look more professional and sophisticated. I want it to look like a real order form where users type in how much of what item they like, scroll through different sections to find what they want, etc.
+* I would like to make the order form look more professional and sophisticated (updated). I want it to look like a real order form where users type in how much of what item they like, scroll through different sections to find what they want, etc.
 * I want to add an online payment option for users to "pay" online
 * I want to add a feature where users can submit their own reviews as well and make the reviews more professional looking
 
