@@ -16,7 +16,7 @@
     <header id="top" class="page_head">
       <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand logo" href="#">Pascucci's</a>
+          <a class="navbar-brand logo" href="./index.html">Pascucci's</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -54,34 +54,30 @@
     </header>
     <main class="main-form">
       <section class="container">
-        <section class="row col-12">
+        <section class="row">
           <h3 class="form-heading">Fill out to place your order</h3>
         </section>
-        <form class="was-validated">
+        <form>
           <div class="form-check mb-3">
-            <label for="validationFirstName" class="form-label"
-              >First Name</label
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="validationFirstName"
-              placeholder="enter first name"
-              required
-            />
-            <div class="invalid-feedback">Please enter first name</div>
-          </div>
-          <div class="form-check mb-3">
-            <label for="validationLastName" class="form-label">Last Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="validationLastName"
-              placeholder="enter last name"
-              required
-            />
-            <div class="invalid-feedback">Please enter last name</div>
-          </div>
+          <label for="validationFirstName" class="form-label">First Name</label>
+          <input
+            type="text"
+            id="validationFirstName"
+            class="form-control"
+            placeholder="enter first name"
+            required
+          />
+        </div>
+        <div class="form-check mb-3">
+          <label for="validationLastName" class="form-label">Last Name</label>
+          <input
+            type="text"
+            id="validationLastName"
+            class="form-control"
+            placeholder="enter last name"
+            required
+          />
+        </div>
           <div class="form-check mb-3">
             <label for="validationEmail" class="form-label">Email</label>
             <input
@@ -91,7 +87,6 @@
               placeholder="name@example.com"
               required
             />
-            <div class="invalid-feedback">Invalid email</div>
           </div>
           <p class="form-pick-items">
             Select which items you want to order below
@@ -99,12 +94,10 @@
           <p class="form-pick-items">Antipasti</p>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                <label class="form-check-label" for="flexCheckDefault1"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items">Bruschetta $9.99</span>
@@ -112,12 +105,10 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                <label class="form-check-label" for="flexCheckDefault2"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
@@ -127,12 +118,10 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                <label class="form-check-label" for="flexCheckDefault3"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
@@ -143,12 +132,10 @@
           <p class="form-pick-items">Insalata e Zuppa</p>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                <label class="form-check-label" for="flexCheckDefault4"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
@@ -158,12 +145,10 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                <label class="form-check-label" for="flexCheckDefault5"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
@@ -173,12 +158,10 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                <label class="form-check-label" for="flexCheckDefault6"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items">Ceasar Salad $10.99</span>
@@ -187,12 +170,10 @@
           <p class="form-pick-items">Specialita della Casa</p>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                <label class="form-check-label" for="flexCheckDefault7"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items">Palermo $24.99</span>
@@ -200,12 +181,10 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                <label class="form-check-label" for="flexCheckDefault8"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
@@ -215,12 +194,10 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+                <label class="form-check-label" for="flexCheckDefault9"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
@@ -231,12 +208,10 @@
           <p class="form-pick-items">Pasta</p>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+                <label class="form-check-label" for="flexCheckDefault10"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
@@ -246,12 +221,10 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+                <label class="form-check-label" for="flexCheckDefault11"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
@@ -261,12 +234,10 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12">
+                <label class="form-check-label" for="flexCheckDefault12"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
@@ -276,12 +247,10 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13">
+                <label class="form-check-label" for="flexCheckDefault13"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
@@ -291,12 +260,10 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault14">
+                <label class="form-check-label" for="flexCheckDefault14"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items">Lasagne $21.99</span>
@@ -304,18 +271,20 @@
           </div>
           <div class="row align-items-center mb-4">
             <div class="col-auto">
-              <select class="form-select form-select-sm">
-                <option selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                <label class="form-check-label" for="flexCheckDefault15"></label>
+              </div>
             </div>
             <div class="col-auto">
               <span class="form-text form-pick-items"
                 >Fettuccine Alfredo $20.99</span
               >
             </div>
+          </div>
+          <div>
+            <p class="form-selected">Selected items:</p>
+            <div class="form-selected-items"  id="selected-output"></div>
           </div>
           <div class="mb-3">
             <button class="btn btn-outline-dark" type="submit">
@@ -330,5 +299,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="form-page.js"></script>
   </body>
 </html>
